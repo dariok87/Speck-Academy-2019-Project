@@ -79,13 +79,17 @@ input {
   height: 2em;
 }
 
-#search {
+.search {
   width: 10em;  height: 2em;
   background-color: #333;
   color: #fff;
   font-family: 'Lato', sans-serif;
   font-weight: bold; 
   border: 0;
+}
+
+.search:hover {
+  background-color: grey;
 }
 
 .form-container {
