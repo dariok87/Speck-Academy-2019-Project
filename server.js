@@ -3,12 +3,12 @@ let halls = [];
 let hallId = 0;
 let hallNames = [];
 
-function add(hallName) {
+function add(hallName, reservation) {
   let hallObject = {
     id: hallId,
     name: hallName,
     reservation: {
-      isReserved: false,
+      isReserved: reservation,
       reservedFrom: null,
       reservedUntil: null
     }
@@ -18,11 +18,11 @@ function add(hallName) {
   hallId++;
 }
 
-add('Klub Kulture');
-add('Hrvatski Dom');
-add('Vladimir Nazor');
-add('Galerija K1');
-add('Ljudevit Modec');
+add('Klub Kulture', true);
+add('Hrvatski Dom', true);
+add('Vladimir Nazor', false);
+add('Galerija K1', true);
+add('Ljudevit Modec', false);
 
 hallNames = halls.map(function (hall) {
     return hall.name;
