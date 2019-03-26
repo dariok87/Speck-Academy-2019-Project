@@ -1,6 +1,6 @@
 const { DateTime } = require("luxon");
 
-export let halls = [];
+let halls = [];
 let hallId = 0;
 
 function add(hallName, reservation) {
@@ -24,3 +24,4 @@ add('Vladimir Nazor', false);
 add('Galerija K1', true);
 add('Ljudevit Modec', false);
 
+module.exports = halls;
