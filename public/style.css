@@ -120,6 +120,10 @@ section {
   text-align: center;
 }
 
+.flex-container > h1 {
+  color: black;
+}
+
 .pic {
   display: flex;
   width: 240px;
