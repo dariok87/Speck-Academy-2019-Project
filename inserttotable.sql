@@ -1,4 +1,4 @@
---halls
+--halls  
 
 
 INSERT INTO halls (hall_id,name,address,reservation,capacity)
