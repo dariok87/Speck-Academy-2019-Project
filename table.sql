@@ -1,4 +1,4 @@
---halls
+--halls  
 
 CREATE TABLE halls(
    hall_id SERIAL PRIMARY KEY,
